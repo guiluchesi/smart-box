@@ -38,6 +38,9 @@
     "gulp-useref": "^1.1.1",
     "jshint-stylish": "^1.0.1",
     "main-bower-files": "^2.5.0",
+    "postcss-cssnext": "^2.9.0",
+    "postcss-import": "^9.1.0",
+    "postcss-nested": "^1.0.0",
     "through2": "~0.6.3",
     "wiredep": "^2.2.2"
   }
