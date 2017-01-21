@@ -1,8 +1,5 @@
 /*global -$ */
 'use strict';
-// generated on 2017-01-21 using generator-modern-frontend 0.2.9
-var fs = require('fs');
-var path = require('path');
 
 var gulp = require('gulp');
 var $ = require('gulp-load-plugins')();
