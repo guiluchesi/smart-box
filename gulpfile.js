@@ -23,7 +23,9 @@ gulp.task('stylesheet', function () {
       this.emit('end');
     })
     .pipe($.postcss([
-      require('autoprefixer-core')({browsers: ['last 1 version']})
+      require('postcss-import'),
+      require('postcss-nested'),
+      require('postcss-cssnext'),
     ]))
     .pipe($.if(isDevelopment, $.sourcemaps.write()))
     .pipe(gulp.dest('.tmp/css'))
