@@ -12,7 +12,7 @@ var reload = browserSync.reload;
 var through2 = require('through2');
 var browserify = require('browserify');
 
-var isDevelopment = (process.env.ENVIRONMENT !== "production");
+var isDevelopment = (process.env.ENVIRONMENT !== 'production');
 
 
 gulp.task('stylesheet', function () {
@@ -89,7 +89,7 @@ gulp.task('images', function () {
 });
 
 gulp.task('fonts', function () {
-  var pattern = 'app/fonts/**/*'
+  var pattern = 'app/fonts/**/*';
   return gulp.src(require('main-bower-files')({
     filter: '**/*.{eot,svg,ttf,woff,woff2}'
   }).concat(pattern))
