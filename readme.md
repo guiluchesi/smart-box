@@ -3,6 +3,11 @@
 ## What is this?
 This is my piece of code for Smartbox Technical Test.
 
+## How to run?
+```
+npm install && gulp serve
+```
+
 ## But it is not completed, what happended?
 Well, in the moment I received the test I could TOTALLY visualisate (in angular) a list of Beatles' albums and info, with a list of the album covers (you may see in the assets folders a placeholder cover and some css that I intended to use) and that's when my problems started, after fourty minutes I realised that the covers' image endpoint is only accessible through authentication, so I have to change all my plans.
 
