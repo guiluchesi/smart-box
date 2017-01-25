@@ -1,0 +1,16 @@
+.albums-index {
+    display: block;
+    position: relative;
+    /*flex-flow: row;
+    flex-wrap: wrap;*/
+    ul { display: inline-block; }
+    button { position: absolute; top: 70px; left: 80px; }
+    .album {
+        width: 250px;
+        overflow: hidden;
+        figure {
+            img { transition: transform 0.15s ease-in; }
+            &:hover img { transform: scale(1.1); }
+        }
+    }
+}

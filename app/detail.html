@@ -39,24 +39,9 @@
     </div>
 
     <div class="row">
-        <div class="large-12 columns albums-index" >
+        <div class="large-12 columns details" data-bind="with: details">
 
-            <h2>The latest albums</h2>
-
-            <ul data-bind="foreach: albums, visible: $index < $root.albumMaxNumber">
-                <li>
-                    <a data-bind="attr: {href: link}">
-                        <p data-bind="text: title"></p>
-                    </a>
-                </li>
-            </ul>
-
-            <!-- <button data-bind="click: showMoreAlbums">Show more albums</button> -->
-            <!-- <div class="album">
-                <figure>
-                    <img src="images/album-placeholder.jpg" alt="Album Placeholder">
-                </figure>
-            </div> -->
+            <h2 data-bind="text: title"></h2>
 
         </div>
     </div>
